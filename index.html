@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>contact From | Nekocoding</title>
+  </head>
+  <body>
+    <div class="contact__container">
+      <form
+        action="https://formspree.io/f/xldeybpy"
+        method="POST"
+        class="contact__left"
+      >
+        <div class="contact__left__title">
+          <h2>Aloqaga Chiqish</h2>
+          <hr />
+        </div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Ismingiz"
+          class="contact__inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Manzilingiz"
+          class="contact__inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Sizning xabaringiz"
+          class="contact__inputs"
+          required
+        ></textarea>
+        <button type="submit">
+          Yuborish <img src="assets/arrow_icon.png" alt="" />
+        </button>
+      </form>
+      <div class="contact__right">
+        <img src="assets/right_img.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
